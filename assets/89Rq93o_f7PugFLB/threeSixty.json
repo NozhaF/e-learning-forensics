@@ -1,0 +1,27 @@
+{
+  "version": "3.54.25674.0",
+  "course_id": "6M0NrasA6X4_course_id",
+  "title": "fingerprintMinutiae",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6l8BsLoJl5y",
+      "title": "Fingerprints",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1940,
+    "height": 1100
+  },
+  "stage": {
+    "width": 1920,
+    "height": 1080
+  }
+}

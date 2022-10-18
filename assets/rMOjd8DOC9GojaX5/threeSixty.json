@@ -1,0 +1,27 @@
+{
+  "version": "3.54.25674.0",
+  "course_id": "6qF68WlL1YM_course_id",
+  "title": "more-info-Trace",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6HHGv0Jb6lC",
+      "title": "Normal",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1940,
+    "height": 290
+  },
+  "stage": {
+    "width": 1920,
+    "height": 270
+  }
+}

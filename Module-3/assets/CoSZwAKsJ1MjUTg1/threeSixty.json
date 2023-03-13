@@ -1,0 +1,27 @@
+{
+  "version": "3.69.28997.0",
+  "course_id": "5acJDXlMiAG",
+  "title": "NAA-Applications",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5kRfj9RTrIj",
+      "title": "Untitled Slide",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1240,
+    "height": 1020
+  },
+  "stage": {
+    "width": 1220,
+    "height": 1000
+  }
+}

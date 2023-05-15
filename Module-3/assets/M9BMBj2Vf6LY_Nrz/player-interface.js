@@ -27,6 +27,7 @@
   var debug = !!params.debug;
 
   var handlers = {
+    'frame:loaded': frameLoaded,
     'slide:capture': captureSlide,
     'player:pause': triggerPause,
     'player:play': triggerPlay,
@@ -91,6 +92,28 @@
       });
     }
   };
+
+  let playerTimeupdateWaiting = false
+
+  function throttledPlayerTimeupdate() {
+    if (!playerTimeupdateWaiting) {
+      playerTimeupdateWaiting = true
+
+      sendParentMessage({
+        type: 'player:timeupdate'
+      })
+
+      setTimeout(() => { playerTimeupdateWaiting = false }, 2000)
+    }
+  }
+
+  function frameLoaded() {
+    const videoNodes = document.querySelectorAll('video')
+
+    videoNodes.forEach(video =>
+      video.addEventListener('timeupdate', throttledPlayerTimeupdate)
+    )
+  }
 
   function captureSlide(data) {
     var player = window.GetPlayer();

@@ -1,0 +1,43 @@
+/*Customization added for the marker and bubble for the 'More Info' button and the 'References' button*/
+
+
+
+/*Info-Marker*/
+img[alt="info.png"] ~ ol button > span{
+	background-image:url("infoButton.png");
+	background-size: cover;
+	color: #fff0;
+	height:7rem;
+	width: 7rem;
+
+}
+
+/*Info-Bubble*/
+img[alt="info.png"] ~ ol button ~ div > div{
+	background-color:#ffbb0aff;
+	width:100% !important;
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+
+}
+
+
+/*References-Marker*/
+img[alt="ref.png"] ~ ol button > span{
+	background-image:url("refButton.png");
+	background-size: cover;
+	color: #fff0;
+	height:7rem;
+	width: 7rem;
+
+}
+
+
+/*References-Bubble*/
+img[alt="ref.png"] ~ ol button ~ div > div{
+	background-color:#ffbb0aff;
+	width:100% !important;
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+
+}
